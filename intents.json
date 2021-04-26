@@ -1,0 +1,46 @@
+{"intents": [
+
+	{
+		"tag": "cumprimentos",
+		"patterns": ["Olá", "Oi", "oi pato", "ei pato"],
+		"responses": ["Olá, prazer, sou seu duck assistente."],
+		"context_set": ""
+	},
+	{
+
+		"tag": "motivacional",
+		"patterns": ["Me motive", "motivação", "motive", "cansado", "me sinto cansado", "to cansado"],
+		"responses": ["Olá, prazer, sou seu duck assistente."],
+		"context_set": ""
+	},
+	{
+		"tag": "agradecer",
+		"patterns": ["Obrigado", "Muito obrigado"],
+		"responses": ["De nada."],
+		"context_set": ""
+	},
+	{
+		"tag": "mostrar_exercicios",
+		"patterns": ["Lista de exercícios de hoje", "Quais os exercícios de hoje", "Quais os exercícios", "Qual minha lista de exercícios para hoje?"],
+		"response": ["Mostrando lista de exercícios"],
+		"context_set": ""
+	},
+	{
+		"tag": "adicionar_exercicio",
+		"patterns": ["Adicionar um exercicio", "Novo exercício"],
+		"response": ["Adicionando exercício"],
+		"context_set": ""
+	},
+	{
+		"tag": "remover_exercicio",
+		"patterns": ["Remover um exercicio", "Cancelar exercício"],
+		"response": ["Removendo exercicio"],
+		"context_set": ""
+	},
+	{
+		"tag": "despedida",
+		"patterns": ["tchau", "Fechar assistente", "Adeus"],
+		"response": ["Até a próxima"],
+		"context_set": ""
+	}
+]}
